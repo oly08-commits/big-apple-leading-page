@@ -12,6 +12,7 @@ export function Banner() {
         <h1
           className="
             absolute top-10 z-10
+            mt-10
             text-center
             font-black text-blue-400
             text-6xl

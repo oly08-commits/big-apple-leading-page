@@ -2,7 +2,7 @@ import { ItemList } from "./itemList";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full backdrop-blur-md">
+    <header className="fixed md:relative top-0 z-50 w-full backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="/" className="shrink-0" aria-label="Página inicial">
           <img

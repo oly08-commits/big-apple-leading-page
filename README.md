@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# Welcome to Big Apple
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a leading page for a empris Big app, 
 
 Currently, two official plugins are available:
 
