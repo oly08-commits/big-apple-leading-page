@@ -3,12 +3,13 @@ import Main from "./screens/main";
 import Pricing from "./screens/princing";
 import ContributionGraphScreen from "./screens/contribuition_graph";
 import WavesScreen from "./screens/weves";
+import ECGScreen from "./screens/electrocardiograma";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<WavesScreen />} />
+        <Route path="/" element={<ECGScreen />} />
         <Route path="/waves" element={<WavesScreen />} />
         <Route path="/Graph" element={<ContributionGraphScreen />} />
         <Route path="/home" element={<Main />} />
