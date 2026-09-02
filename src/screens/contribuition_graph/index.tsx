@@ -14,8 +14,7 @@ const months = Array.from({ length: 12 }, (_, i) =>
 
 const weekDays = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"];
 
-export default function LocalCobaia() {
-  console.log(months);
+export default function ContributionGraphScreen() {
   return (
     <div className="w-screen h-screen flex items-center justify-center">
       <div className="flex gap-2 ">
